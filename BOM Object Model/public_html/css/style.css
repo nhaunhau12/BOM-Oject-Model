@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0 auto;
-    color: red;
+    color:  #ffff00;
     box-sizing: border-box;
 }
 
@@ -21,10 +21,10 @@
     font-size: 20px;
 }
 
-img {
-    height: 722px;
+img.background {
     position: relative;
     width: 100%;
+    opacity: 0.8;
 }
 
 input[type="radio"] {
@@ -46,6 +46,8 @@ p {
 img.chucmung {
     animation: chucmung 5s linear infinite alternate;
     position: relative;
+     position: relative;
+    width: 100%;
 }
 
 @keyframes chucmung {
