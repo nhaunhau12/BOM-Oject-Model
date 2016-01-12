@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0 auto;
+    color: red;
+    box-sizing: border-box;
+}
+
+#test_status {
+    font-size: 40px;
+    left: 100px;
+    position: absolute;
+    top: 50%;
+}
+
+#test {
+    padding: 10px 40px 40px;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    width: 100%;
+    font-size: 20px;
+}
+
+img {
+    height: 722px;
+    position: relative;
+    width: 100%;
+}
+
+input[type="radio"] {
+    margin: 10px 0 10px 7%;
+}
+
+input[type='submit']#question {
+    font-size: 23px;
+    height: 100px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+p {
+    background: red;
+    position: relative;
+}
+
+img.chucmung {
+    animation: chucmung 5s linear infinite alternate;
+    position: relative;
+}
+
+@keyframes chucmung {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+    
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+h2.txtchucmung {
+    animation: txtchucmung 5s linear infinite alternate;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+@keyframes txtchucmung {
+    0% {
+        top: 0;
+        font-size: 25px;
+        color: red;
+    }
+
+    25% {
+        top: 25%;
+        font-size: 30px;
+        color: green;
+    }
+
+    50% {
+        top: 50%;
+        font-size: 45px;
+        color: blue;
+    }
+    
+    75% {
+        top: 50%;
+        font-size: 30px;
+        color: green;
+    }
+
+    100% {
+        top: 96%;
+        font-size: 25px;
+        color: red;
+    }
+}
